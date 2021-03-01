@@ -6,7 +6,7 @@ This repository only stores an initial build for Kotlin/Multiplatform using Grad
 The code currently cannot be done due to the limitations of the platforms and libraries used:
 ```markdown
   1. The Kotlin/Native platform does not support multi-threaded coroutines (ref. #462);
-  2. The Ktor library does not support ~~web~~sockets on the Kotlin/Native platform (ref. #1215);
+  2. The Ktor library does not support sockets on the Kotlin/Native platform (ref. #1215);
   3. The Ktor/Network library does not support the Kotlin/Native platform for Windows.
 ```
 
@@ -16,7 +16,7 @@ For now, the forecast of libraries being used is:
 ```markdown
   1. Serialization extension for Kotlin/Multiplatform: kotlinx.serialization;
   2. Sockets extension for Kotlin/Multiplatform: ktor/network;
-  3. **Web**Sockets extension for Kotlin/Multiplatform: ktor/features/websockets;
+  3. **Web**sockets extension for Kotlin/Multiplatform: ktor/features/websockets;
   4. Atomic operations extension for Kotlin/Multiplatform: kotlinx.atomicfu;
   5. Logging extension for Kotlin/Multiplatform: MicroUtils/kotlin-logging.
 ```
